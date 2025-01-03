@@ -148,6 +148,7 @@
                <p><strong>Departure Time:</strong> <%= ticket.getDepartureTime() %></p>
                <p><strong>Arrival Time:</strong> <%= ticket.getArrivalTime() %></p>
                <p><strong>Available Seats:</strong> <%= ticket.getStock() %> tickets</p>
+               <p><strong>Ticket Type:</strong> <%= ticket.getTicketType() %></p>
                <p><strong>Price per Ticket:</strong> <%= formatRupiah.format(ticket.getBasePrice()) %></p>
            </div>
 
