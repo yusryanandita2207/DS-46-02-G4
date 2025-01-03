@@ -120,8 +120,6 @@
    </div>
    <% } %>
 
-   <script>
-       // Add any additional JavaScript if needed
-   </script>
+ 
 </body>
 </html>
