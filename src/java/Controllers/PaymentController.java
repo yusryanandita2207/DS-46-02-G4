@@ -117,6 +117,6 @@ public class PaymentController extends HttpServlet {
             throws Exception {
         PaymentDAO paymentDAO = new PaymentDAOImpl();
         request.setAttribute("payments", paymentDAO.findAll());
-        request.getRequestDispatcher("/listPayments.jsp").forward(request, response);
+        request.getRequestDispatcher("/bookTicket.jsp").forward(request, response);
     }
 }
