@@ -119,9 +119,5 @@
        <a href="index.jsp" class="text-indigo-600 hover:text-indigo-800">Back to Home</a>
    </div>
    <% } %>
-
-   <script>
-       // Add any additional JavaScript if needed
-   </script>
 </body>
 </html>
